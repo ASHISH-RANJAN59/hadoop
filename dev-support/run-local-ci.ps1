@@ -93,8 +93,8 @@ $Env:IS_OPTIONAL = 0
 $Env:IS_NIGHTLY_BUILD = 1
 $Env:IS_WINDOWS = 1
 $Env:BASH_EXECUTABLE = $BashExePath
-$Env:VCPKG_INSTALLED_PACKAGES = 'D:\projects\github\microsoft\vcpkg\installed\x64-windows'
-$Env:CMAKE_TOOLCHAIN_FILE = 'D:\projects\github\microsoft\vcpkg\scripts\buildsystems\vcpkg.cmake'
+$Env:VCPKG_INSTALLED_PACKAGES = 'C:\Users\ranjanash\vcpkg\installed\x64-windows'
+$Env:CMAKE_TOOLCHAIN_FILE = 'C:\Users\ranjanash\vcpkg\scripts\buildsystems\vcpkg.cmake'
 
 $yetusCheckoutDir = Join-Path `
     -Path $Workspace `
