@@ -14,7 +14,7 @@
 Sample command invocation -
 PS D:\projects\github\apache\hadoop> .\dev-support\run-local-ci.ps1 `
     -Workspace D:\workspace `
-    -HadoopRepoUrl 'https://github.com/GauthamBanasandra/hadoop.git' `
+    -HadoopRepoUrl 'https://github.com/ASHISH-RANJAN59/hadoop.git' `
     -HadoopRepoBranch 'disable-xmllint'
 #>
 
@@ -93,8 +93,8 @@ $Env:IS_OPTIONAL = 0
 $Env:IS_NIGHTLY_BUILD = 1
 $Env:IS_WINDOWS = 1
 $Env:BASH_EXECUTABLE = $BashExePath
-$Env:VCPKG_INSTALLED_PACKAGES = 'C:\Users\ranjanash\vcpkg\installed\x64-windows'
-$Env:CMAKE_TOOLCHAIN_FILE = 'C:\Users\ranjanash\vcpkg\scripts\buildsystems\vcpkg.cmake'
+$Env:VCPKG_INSTALLED_PACKAGES = 'D:\vcpkg\installed\x64-windows'
+$Env:CMAKE_TOOLCHAIN_FILE = 'D:\vcpkg\scripts\buildsystems\vcpkg.cmake'
 
 $yetusCheckoutDir = Join-Path `
     -Path $Workspace `
